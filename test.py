@@ -14,7 +14,7 @@ for fileName in listDir:
     replName = replName.replace("“", "").replace("”", "")
     replName = replName.replace("\"", "")
     replName = replName.replace("、", "").replace("！", "").replace("!", "")
-    replName = replName.replace("：", "").replName.replace(":", "").replace("；", "")
+    replName = replName.replace("：", "").replace("；", "")
     replName = replName.replace(". ", " ")
     replName = replName.replace(" - ", "-").replace("－", "-")
     replName = replName.replace(", ", " ").replace("，", "").replace("．", "")
